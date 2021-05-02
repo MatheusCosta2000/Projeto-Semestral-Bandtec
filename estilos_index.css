@@ -1,0 +1,57 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    border-bottom: 3px solid #3399ff ;
+    padding: 10px 0 10px 0;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.navbar{
+    list-style-type: none;
+    float: right;
+}
+
+.titulo{
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+}
+
+body .header .navbar li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 125%;
+}
+
+.destaque{
+    color: #3399ff;
+}
+
+/* BANNER COM IMAGEM DE FUNDO */
+
+.banner {
+    text-align: center;
+    background-color: white;
+    background-image: url(https://images.pexels.com/photos/1586951/pexels-photo-1586951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.banner h1 {
+    margin: 0;
+    color: black;
+    font-size: 450%;
+    padding-top: 150px;
+}
